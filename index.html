@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Super uau</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+
+            <label for="username" class="input-box">
+                <input id="username" type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </label>
+
+            <label for="password" class="input-box">
+                <input id="password" type="password" placeholder="Password" required>
+                <i id="icon_lock" onclick="change_type_pass()" class='bx bxs-lock-alt'></i>
+            </label>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!-- Script -->
+    <script src="index.js"></script>
+</body>
+
+</html>
